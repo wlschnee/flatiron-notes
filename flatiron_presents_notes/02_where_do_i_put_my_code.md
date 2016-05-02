@@ -1,5 +1,5 @@
 ###Where does my code go?
-  * Appropriate logic for contorller:
+  * Appropriate logic for controller:
       * session/authorization handling
       * parameter management: calling the correct model based on what params are passed in
       * rendering & redirecting
