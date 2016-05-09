@@ -1,0 +1,9 @@
+<h1><%= @business.name %></h1>
+<div>
+  <% @business.reviews.each do |review| %>
+    <h2><%= review.name %></h2>
+    <h4><%= review.user %></h4>
+    <%= review.meh_rating %>
+    <h3><%= review.title %></h3>
+    <p><%= review.content %></p>
+</div>
